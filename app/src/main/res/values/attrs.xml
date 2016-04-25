@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--&lt;!&ndash; 属性公用导致一个蛋疼的事,布局中没有自动提示&ndash;&gt;-->
+    <!--<declare-styleable name="RoundView">-->
+    <!--&lt;!&ndash; 圆角矩形背景色 &ndash;&gt;-->
+    <!--<attr name="rv_backgroundColor" format="color"/>-->
+    <!--&lt;!&ndash; 圆角矩形背景色press &ndash;&gt;-->
+    <!--<attr name="rv_backgroundPressColor" format="color"/>-->
+    <!--&lt;!&ndash; 圆角弧度,单位dp&ndash;&gt;-->
+    <!--<attr name="rv_cornerRadius" format="dimension"/>-->
+    <!--&lt;!&ndash; 圆角弧度,单位dp&ndash;&gt;-->
+    <!--<attr name="rv_strokeWidth" format="dimension"/>-->
+    <!--&lt;!&ndash; 圆角边框颜色&ndash;&gt;-->
+    <!--<attr name="rv_strokeColor" format="color"/>-->
+    <!--&lt;!&ndash; 圆角边框颜色press &ndash;&gt;-->
+    <!--<attr name="rv_strokePressColor" format="color"/>-->
+    <!--&lt;!&ndash; 文字颜色press&ndash;&gt;-->
+    <!--<attr name="rv_textPressColor" format="color"/>-->
+    <!--&lt;!&ndash; 圆角弧度是高度一半&ndash;&gt;-->
+    <!--<attr name="rv_isRadiusHalfHeight" format="boolean"/>-->
+    <!--&lt;!&ndash; 圆角矩形宽高相等,取较宽高中大值&ndash;&gt;-->
+    <!--<attr name="rv_isWidthHeightEqual" format="boolean"/>-->
+    <!--</declare-styleable>-->
+
+
+    <!-- 以下是重用attr的正确姿势,一切为了在布局中可以自动提示-->
+    <!-- 圆角矩形背景色 -->
+    <attr name="rv_backgroundColor" format="color"/>
+    <!-- 圆角矩形背景色press -->
+    <attr name="rv_backgroundPressColor" format="color"/>
+    <!-- 圆角矩形背景色selected -->
+    <attr name="rv_backgroundSelectedColor" format="color"/>
+
+    <!-- 圆角边框颜色-->
+    <attr name="rv_strokeColor" format="color"/>
+    <!-- 圆角边框颜色press -->
+    <attr name="rv_strokePressColor" format="color"/>
+    <!-- 圆角边框颜色selected -->
+    <attr name="rv_strokeSelectedColor" format="color"/>
+
+    <!-- 文字颜色press-->
+    <attr name="rv_textPressColor" format="color"/>
+    <!-- 文字颜色selected-->
+    <attr name="rv_textSelectedColor" format="color"/>
+
+    <!-- 圆角弧度,单位dp-->
+    <attr name="rv_cornerRadius" format="dimension"/>
+    <!-- 圆角弧度,单位dp-->
+    <attr name="rv_strokeWidth" format="dimension"/>
+    <!-- 圆角弧度是高度一半-->
+    <attr name="rv_isRadiusHalfHeight" format="boolean"/>
+    <!-- 圆角矩形宽高相等,取较宽高中大值-->
+    <attr name="rv_isWidthHeightEqual" format="boolean"/>
+
+
+    <!-- 圆角弧度,单位dp,TopLeft-->
+    <attr name="rv_cornerRadius_TL" format="dimension"/>
+    <!-- 圆角弧度,单位dp,TopRight-->
+    <attr name="rv_cornerRadius_TR" format="dimension"/>
+    <!-- 圆角弧度,单位dp,BottomLeft-->
+    <attr name="rv_cornerRadius_BL" format="dimension"/>
+    <!-- 圆角弧度,单位dp,BottomRight-->
+    <attr name="rv_cornerRadius_BR" format="dimension"/>
+    <!-- 测试整型-->
+    <attr name="rv_integer" format="integer"/>
+    <!-- 测试String-->
+    <attr name="rv_String" format="string"/>
+    <!-- 测试drawable-->
+    <attr name="rv_drawable" format="reference"/>
+    <attr name="rv_drawable1" format="reference"/>
+    <attr name="rv_drawable2" format="reference"/>
+    <declare-styleable name="MyGraView">
+
+        <!-- 圆角矩形背景色 -->
+        <attr name="rv_backgroundColor"/>
+        <!-- 圆角矩形背景色press -->
+        <attr name="rv_backgroundPressColor"/>
+        <!-- 圆角矩形背景色selected -->
+        <attr name="rv_backgroundSelectedColor"/>
+
+        <!-- 圆角边框颜色-->
+        <attr name="rv_strokeColor"/>
+        <!-- 圆角边框颜色press -->
+        <attr name="rv_strokePressColor"/>
+        <!-- 圆角边框颜色selected -->
+        <attr name="rv_strokeSelectedColor"/>
+
+        <!-- 文字颜色press-->
+        <attr name="rv_textPressColor"/>
+        <!-- 文字颜色selected-->
+        <attr name="rv_textSelectedColor"/>
+
+        <!-- 圆角弧度,单位dp-->
+        <attr name="rv_cornerRadius"/>
+        <!-- 圆角弧度,单位dp-->
+        <attr name="rv_strokeWidth"/>
+        <!-- 圆角弧度是高度一半-->
+        <attr name="rv_isRadiusHalfHeight"/>
+        <!-- 圆角矩形宽高相等,取较宽高中大值-->
+        <attr name="rv_isWidthHeightEqual"/>
+
+        <!-- 圆角弧度,单位dp,TopLeft-->
+        <attr name="rv_cornerRadius_TL"/>
+        <!-- 圆角弧度,单位dp,TopRight-->
+        <attr name="rv_cornerRadius_TR"/>
+        <!-- 圆角弧度,单位dp,BottomLeft-->
+        <attr name="rv_cornerRadius_BL"/>
+        <!-- 圆角弧度,单位dp,BottomRight-->
+        <attr name="rv_cornerRadius_BR"/>
+        <!-- 测试整型-->
+        <attr name="rv_integer"/>
+        <!-- 测试String-->
+        <attr name="rv_String"/>
+        <!-- 测试drawable-->
+        <attr name="rv_drawable"/>
+        <attr name="rv_drawable1"/>
+        <attr name="rv_drawable2"/>
+        <attr name="text" format="string"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>
