@@ -44,7 +44,7 @@ public class TypeAnalysis {
                                 field.set(handler, typedArray.getBoolean(annotation.value(), false));
                             }else if(typeName.equals("float")){
                                 field.set(handler, typedArray.getDimension(annotation.value(), -1));
-                            }else if(typeName.equals("drawable")){
+                            }else if(typeName.equals("android.graphics.drawable.Drawable")){
                                 field.set(handler, typedArray.getDrawable(annotation.value()));
                             }
                         }else{
