@@ -40,7 +40,7 @@ public class TypeAnalysis {
                                 field.set(handler, typedArray.getInteger(annotation.value(), -1));
                             }else if(typeName.equals("java.lang.String")){
                                 field.set(handler, typedArray.getString(annotation.value()));
-                            }else if(typeName == "boolean"){
+                            }else if(typeName.equals("boolean")){
                                 field.set(handler, typedArray.getBoolean(annotation.value(), false));
                             }else if(typeName.equals("float")){
                                 field.set(handler, typedArray.getDimension(annotation.value(), -1));
